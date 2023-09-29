@@ -1,4 +1,6 @@
 pyyaml
 mediapipe
 opencv-python
+streamlit
+matplotlib
 numpy
