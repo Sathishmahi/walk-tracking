@@ -1,0 +1,9 @@
+artifact:
+  root_dir: artifact
+
+tracker:
+  root_dir: tracker
+  input_video_file_name: input.mp4
+  output_video_file_name: output.mp4
+  black_img_file_name: path.jpg
+  
