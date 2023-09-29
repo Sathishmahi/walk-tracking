@@ -41,6 +41,18 @@ if uploaded_file is not None:
         output_video_path = os.path.join(TRACKER_DIR_NAME, tracker_con.get("output_video_file_name"))
         output_img_path = os.path.join(TRACKER_DIR_NAME, tracker_con.get("black_img_file_name"))
 
+        # show_image = st.checkbox("Show The Steps Path Image")
+        # Check the state of the checkbox
+        # if show_image:
+        # with open(output_img_path,"rb") as f:
+        #     st.image(  f.read()   , caption="Steps Path Image",use_column_width=True)
+
+        # show_video = st.checkbox("Show Out Video")
+        # # Check the state of the checkbox
+        # if show_video:
+        # with open(output_video_path,"rb") as f:
+        #     st.video(f.read())
+
         # Display a download button for the tracked video
         with open(output_video_path, "rb") as f:
             con = f.read()

@@ -23,7 +23,7 @@ class Tracker:
         self.counter: int = 0
         self.start: tuple[int, int] | Any = None
         self.end: tuple[int, int] | Any = None
-        self.no_of_frame: int = 5
+        self.no_of_frame: int = 1
         self.all_centre_points: list = []
         self.thersold: int = 0
 
@@ -63,8 +63,8 @@ class Tracker:
                 self.start = leg_point[-1]
                 for p in self.all_centre_points:
                     p1, p2 = p[0], p[1]
-                    cv2.line(imarr, p1, p2, (0, 0, 255), 4)
-                    cv2.line(self.black_img_arr, p1, p2, (0, 0, 255), 4)
+                    cv2.line(imarr, p1, p2, (0, 0, 255), 5)
+                    cv2.line(self.black_img_arr, p1, p2, (0, 0, 255), 2)
         return imarr
 
     def create_video(self, black_img: bool = True):
