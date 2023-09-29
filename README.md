@@ -1,2 +1,1 @@
-# human-pose-detection
-human-pose-detection
+# walk-tracking
