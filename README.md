@@ -29,8 +29,6 @@ The Human Walking Pattern Tracking System offers a valuable tool for enhancing p
 
 **UI:** StreamLit
 
-**Model to Use:** Finetuned Yolo-V8 Small Model with Custom Dataset
-
 
 ## Run Locally
 
@@ -51,7 +49,7 @@ run streamlit app
 bash run.sh
 ```
 
-### final steps tracking output in img format
+### final steps-tracking output in img format
 
 ![path (3)](https://github.com/Sathishmahi/walk-tracking/assets/88724458/ab3d06ec-1c67-4888-84b9-e68cdebbe513)
 
